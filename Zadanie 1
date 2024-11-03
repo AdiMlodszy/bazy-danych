@@ -12,16 +12,16 @@
 ### Etap 1: Przygotowanie środowiska
 - **Cel**: Zainstalowanie i skonfigurowanie Visual Studio Code oraz narzędzi do pracy z SQL.
 - **Podzadania**:
-  - [ ] Zainstaluj Visual Studio Code, jeśli jeszcze tego nie zrobiłeś.
-  - [ ] Zainstaluj rozszerzenie SQL dla VS Code (np. SQLTools), aby umożliwić wygodną edycję i podgląd zapytań SQL.
+  - [x] Zainstaluj Visual Studio Code, jeśli jeszcze tego nie zrobiłeś.
+  - [x] Zainstaluj rozszerzenie SQL dla VS Code (np. SQLTools), aby umożliwić wygodną edycję i podgląd zapytań SQL.
 - **Szacowany czas**: 15-30 minut.
 
 ### Etap 2: Utworzenie projektu i repozytorium
 - **Cel**: Stworzenie projektu SQL i zorganizowanie go w repozytorium.
 - **Podzadania**:
-  - [ ] Stwórz nowy folder dla projektu w VS Code.
-  - [ ] Zainicjuj repozytorium Git w tym folderze.
-  - [ ] Utwórz folder `sql_scripts`, w którym zapiszesz skrypty SQL do tworzenia i wypełniania tabel.
+  - [x] Stwórz nowy folder dla projektu w VS Code.
+  - [x] Zainicjuj repozytorium Git w tym folderze.
+  - [x] Utwórz folder `sql_scripts`, w którym zapiszesz skrypty SQL do tworzenia i wypełniania tabel.
 - **Szacowany czas**: 15-30 minut.
 
 ### Etap 3: Nauka podstaw SQL i tworzenie pierwszej tabeli
