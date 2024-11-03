@@ -24,3 +24,5 @@ INSERT INTO Pracownicy (Numer, Imie, Nazwisko, Stanowisko, Pensja, Miasto) VALUE
 (12, 'Jan', 'Małolepszy', 'księgowy', 2500.00, 'Słupsk'),
 (13, 'Adam', 'Kowalski', 'urzędnik', 2700.00, 'Warszawa'),
 (14, 'Adrian', 'Kowal', 'urzędnik', 2700.00, 'Sopot');
+
+SELECT * FROM Pracownicy;

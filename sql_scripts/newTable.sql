@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS Nowa;
+
 CREATE TABLE Nowa (
     Id INTEGER PRIMARY KEY,
     Zawod CHAR(20),
@@ -22,3 +24,5 @@ INSERT INTO Nowa(Id, Zawod, Telefon, Data_rozp, Premia, Uwagi) VALUES
 (12, 'ekonomista', '232323232', '2008-08-01', 800.00, NULL),
 (13, 'historyk', '343434343', '1991-12-01', 600.00, NULL),
 (14, 'prawnik', '454545454', '1994-10-01', 700.00, NULL);
+
+SELECT * FROM Nowa;
