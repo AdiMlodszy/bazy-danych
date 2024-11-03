@@ -27,26 +27,26 @@
 ### Etap 3: Nauka podstaw SQL i tworzenie pierwszej tabeli
 - **Cel**: Zrozumienie składni SQL i przygotowanie pierwszej tabeli `Nowa` z właściwymi polami.
 - **Podzadania**:
-  - [ ] Przeanalizuj definicję tabeli `Nowa` z PDF:
+  - [x] Przeanalizuj definicję tabeli `Nowa` z PDF:
     - `Nr_ident INTEGER PRIMARY KEY` - numer identyfikacyjny.
     - `Zawód CHAR(20)` - pole na zawód.
     - `Telefon VARCHAR(15) UNIQUE` - unikalny numer telefonu.
     - `Data_rozp DATE` - data rozpoczęcia.
     - `Premia MONEY` - wysokość premii.
     - `Uwagi TEXT` - pole na dodatkowe uwagi.
-  - [ ] Utwórz skrypt SQL `create_nowa_table.sql` i zapisz w nim polecenie `CREATE TABLE` dla tabeli `Nowa`.
+  - [x] Utwórz skrypt SQL `create_nowa_table.sql` i zapisz w nim polecenie `CREATE TABLE` dla tabeli `Nowa`.
 - **Szacowany czas na naukę SQL i stworzenie skryptu**: 1-2 godziny.
 
 ### Etap 4: Tworzenie drugiej tabeli i uzupełnienie danymi
 - **Cel**: Utworzenie tabeli `Zlecenia` i dodanie danych do obu tabel.
 - **Podzadania**:
-  - [ ] Przeanalizuj definicję tabeli `Zlecenia`:
+  - [x] Przeanalizuj definicję tabeli `Zlecenia`:
     - `Nr_zlec INTEGER PRIMARY KEY` - numer zlecenia.
     - `Nr_prac INTEGER` - numer pracownika.
     - `Kod_zlecenia CHAR(10)` - kod zlecenia.
     - `Wartosc_zlecenia MONEY` - wartość zlecenia.
-  - [ ] Utwórz skrypt SQL `create_zlecenia_table.sql` i zapisz w nim polecenie `CREATE TABLE` dla tabeli `Zlecenia`.
-  - [ ] Utwórz skrypt SQL `insert_data.sql` zawierający instrukcje `INSERT INTO` do dodania danych do obu tabel zgodnie z PDF-em.
+  - [x] Utwórz skrypt SQL `create_zlecenia_table.sql` i zapisz w nim polecenie `CREATE TABLE` dla tabeli `Zlecenia`.
+  - [x] Utwórz skrypt SQL `insert_data.sql` zawierający instrukcje `INSERT INTO` do dodania danych do obu tabel zgodnie z PDF-em.
 - **Szacowany czas**: 1-2 godziny (zależnie od znajomości składni SQL i złożoności danych).
 
 ### Etap 5: Ćwiczenie zapytań SQL
